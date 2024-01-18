@@ -1,6 +1,12 @@
 {
   "dependencies": {
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "cors": "^2.8.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.49.3",
+    "react-router-dom": "^6.21.2",
+    "react-tabs": "^6.0.2"
   },
   "scripts": {
     "postinstall": "concurrently yarn:postinstall:*",
@@ -9,5 +15,8 @@
     "start": "concurrently yarn:start:*",
     "start:backend": "cd backend && yarn dev",
     "start:frontend": "cd frontend && yarn start"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
   }
 }

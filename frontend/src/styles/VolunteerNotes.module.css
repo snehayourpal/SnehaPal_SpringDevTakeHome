@@ -1,0 +1,48 @@
+/* VolunteerNotes.module.css */
+
+.volunteerNotesContainer {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-bottom: 10vh;
+  }
+  
+  .volunteerNotes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .volunteerNotes h2 {
+    margin-bottom: 10px;
+  }
+  
+  .volunteerNotesContent {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    min-height: 100px; /* Set an appropriate minimum height */
+  }
+  
+  .volunteerNotesButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .volunteerNotesButtons button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #FFC900;
+    color: black;
+    font-family: Lexend, sans-serif;
+  }
+  
+  .volunteerNotesButtons button:hover {
+    background-color: #02A402;
+  }
+  

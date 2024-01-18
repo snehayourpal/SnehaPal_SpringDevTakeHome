@@ -1,0 +1,18 @@
+/* App.module.css */
+
+.headerStyle {
+  background: #333;
+  padding: 20px;
+  text-align: left;
+  margin-bottom: 20px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerTitleStyle {
+  margin: 0;
+  margin-left: 10px;;
+  font-size: 2em;
+  color: #fff;
+  letter-spacing: 1px;
+}

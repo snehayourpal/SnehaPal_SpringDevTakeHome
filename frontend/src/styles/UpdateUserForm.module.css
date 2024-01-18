@@ -1,0 +1,50 @@
+.updateUserFormContainer {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 10vh auto;
+  text-align: center;
+  box-sizing: border-box; /* Add this line */
+}
+
+.updateUserForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.updateUserForm label {
+  margin-bottom: 10px;
+}
+
+.updateUserForm input {
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.updateUserFormButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.updateUserFormButtons button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #FFC900;
+  color: black;
+  font-family: Lexend, sans-serif;
+}
+
+.updateUserFormButtons button:hover {
+  background-color: #403C70;
+  color: white;
+}

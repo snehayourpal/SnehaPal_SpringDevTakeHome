@@ -1,0 +1,156 @@
+/* VolunteerTable.module.css */
+body{
+    background-color: #F5F1E1;
+}
+.addButton {
+    background-color: #FFC55A;
+    border: none;
+    border-radius: 100%;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .addButton:hover {
+    background-color: white;
+  }
+  
+  .editDelButton {
+    background-color: #FFA061;
+    border: none;
+    border-radius: 100%;
+    width: 40px;
+    height:40px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .editDelIcon {
+    max-width: 30px; 
+    max-height: 30px;
+    display: block; 
+  }
+  
+  .editDelButton:hover {
+    background-color: #FFC55A;
+  }
+  
+  
+  .volunteerTableContainer {
+    align-items: center;
+    background: linear-gradient(to bottom, #FF7C5B, #FFCE68);
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lexend', sans-serif;
+    min-height: 100vh;
+  }
+  
+  .volunteerTableHeader {
+    color: white;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .bigPage {
+    width: 90%;
+  }
+  .volunteerTable {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .volunteerTable th, .volunteerTable td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .volunteerTable th {
+    background-color: #403C70;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .volunteerTable img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .filterBar {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.filterBar input {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.downIcon { 
+  max-width: 15px;
+  max-height: 15px;;
+}
+
+.sort{
+  display: flex;
+  flex-direction: row;
+}
+
+.sortButton {
+    background-color: #403C70;
+    border: none;
+    border-radius: 100%;
+    /* padding: 2px; */
+    margin-left: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+  .PaginationControls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .PaginationControls button {
+    background-color: #403C70;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .PaginationControls button:hover {
+    background-color: #FF915E;
+  }
+  
+  .PaginationControls span {
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .volunteerTable th, .volunteerTable td {
+      padding: 10px;
+    }
+  }
+  
