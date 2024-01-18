@@ -46,3 +46,10 @@ Different routes (`/admin/`, `/viewer/`) provide varying levels of access.
 
 - `src/components`: Contains React components for different features.
 - `src/api`: Houses the Express API for retrieving volunteer data.
+
+## Future Areas for Improvement
+- Implement Sorting and Filtering across the entire dataset as opposed to only in each page
+- Implement WebWorks to log Usage Statistics
+- Implement Unit Testing
+
+Extra Notes: I tried to make the website in BoG colors :)
